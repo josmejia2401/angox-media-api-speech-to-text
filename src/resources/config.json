@@ -1,0 +1,22 @@
+{
+    "application": {
+        "name": "angox-media-api-speech-to-text"
+    },
+    "server": {
+        "host": "0.0.0.0",
+        "hostname": "localhost",
+        "port": 15040,
+        "debug": true
+    },
+    "db": {
+        "uri": "",
+        "uri2": "}",
+        "dbName": "angos",
+        "maxPoolSize": 3,
+        "minPoolSize": 1,
+        "maxIdleTimeMS": 20000,
+        "socketTimeoutMS": 20000,
+        "connectTimeoutMS": 20000,
+        "serverSelectionTimeoutMS": 20000
+    }
+}
