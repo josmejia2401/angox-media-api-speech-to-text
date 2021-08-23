@@ -8,7 +8,7 @@ controller = Controller1(config)
 
 def lambda_handler(event, context):
     try:
-        controller.speechToText({"voice": None })
+        controller.speechToText({"advanced": {}, "fileName": "aa.mp3", "voice": '' })
         #Logger2.setLog('media', config.application.name, 'INFO', jsonpickle.encode(event))
         return "ok"
     except Exception as e:
